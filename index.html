@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Keshav Kumar Soni | </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6720b3200.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="fevicon.png" class="fev">
+
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+</head>
+
+<body>
+
+    <header id="header">
+        <nav>
+            <div class="left" data-aos="fade-up">Keshav's Portfolio</div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- --------------- main ----------------- -->
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name Is <span class="purple">Keshav</span>
+                <div>And I Am Passionate About</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" class="bgh" alt="Developer Image">
+            </div>
+        </section>
+        <!-- <hr> -->
+        <!-- -------------- about ------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/my4.png" alt="My Image" width="400px" height="600px">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="aboutme">I'm Keshav Kumar Soni, a passionate Software Engineering student with a
+                            strong interest in web development and product building. I enjoy turning ideas into
+                            real-world projects using HTML, CSS, JavaScript, and C++. I'm constantly learning and
+                            improving my skills, with a focus on writing clean, efficient code. I'm looking for
+                            opportunities to contribute to innovative teams and grow as a developer in a challenging
+                            environment.</p>
+
+                        <div class="tab-titels">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span></li>
+                                <li>HTML, CSS, JAVASCRIPT, REACT, PHP</li>
+
+                                <li><span>Software Development</span></li>
+                                <li>C, C++, PYTHON, PANDAS, NUMPY, JAVA </li>
+
+                                <li><span>Designing</span></li>
+                                <li>CANVA, FIGMA</li>
+
+                                <!-- another skill -->
+                                <li><span>IT Support</span></li>
+                                <li>FUNDAMENTALS OF COMPUTER </li>
+                                <li>BASICS OF LINUX</li>
+                                <li>NETWORKING</li>
+                                <li>CCNA</li>
+                            </ul>
+                        </div>
+                        <!-- another tab Experince tab -->
+                        <div class="tab-contents" id="experience">
+                            <ul class="dot">
+
+                                <li> 45 Days Internship By InternPe In AI/ML </li>
+                                <li> 5 years of experience in Web-Development</li>
+                                <li> 2 years of experience using linux</li>
+                                <li> 3 years of experience in Programing</li>
+                            </ul>
+                        </div>
+                        <!-- another tab Education tab -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025 - Current</span>
+                                <li>Pursuing B-Tech From M.L.V Textile & Engineering Collage</li>
+                                <li><span>2022</span>
+                                <li>12th pass with 69.20%</li>
+                                <li><span>2020</span>
+                                <li>10th pass with 77.33%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --------------- Services ---------------- -->
+
+        <div id="services">
+            <div class="container2">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa fa-cubes" style="font-size:36px"></i><!--this is for icon of code symbol-->
+                        <h2>Web Developer</h2>
+                        <p>Crafting responsive and user-friendly websites tailored to your needs. From static pages to
+                            dynamic web applications, I focus on clean code, modern design, and optimal performance to
+                            ensure your online presence stands out.</p>
+                        <a href="learnMoreWeb.html" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-laptop" style="font-size:36px"></i>
+                        <h2>Software Developer</h2>
+                        <p>Designing and building efficient, scalable software solutions to solve real-world problems. I
+                            specialize in writing clean, maintainable code and delivering applications that meet both
+                            user and business needs</p>
+                        <a href="learnMoreSoft.html" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-gears" style="font-size:36px"></i>
+                        <h2>IT Support</h2>
+                        <p>Providing reliable networking solutions and IT support to keep your systems running smoothly.
+                            From setting up secure networks to troubleshooting hardware and software issues, I ensure
+                            seamless connectivity and minimal downtime.</p>
+                        <a href="learnMoreIt.html" target="_blank">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------- Portfolio --------------- -->
+        <div id="projects">
+            <div class="container2">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="web.webp" alt="">
+                        <div class="layer">
+                            <h3>Web Development</h3>
+                            <p>Go to the link to see the projects</p>
+                            <a href="web.html" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="software.jpg" alt="">
+                        <div class="layer">
+                            <h3>Software Development</h3>
+                            <p>Go to the link to see the project</p>
+                            <a href="software.html" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="networking.jpg" alt="">
+                        <div class="layer">
+                            <h3>AI/ML</h3>
+                            <p>Go to the link to see the project</p>
+                            <a href="networking.html"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#projects" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- -------------------- Contact --------------------- -->
+        <div id="contact">
+            <div class="container2">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p class="cme"> <i class="fa fa-envelope" style="font-size:24px"></i> keshavsonihppi2@gmail.com
+                        </p>
+                        <p class="cme"> <i class="fa fa-phone" style="font-size:24px"></i> 7372959694</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/share/1Bz8s3PSBG/" target="_blank"><i
+                                    class="fa fa-facebook-f" style="font-size:48px;color:red"></i></a>
+                            <a href="https://www.instagram.com/_keshav_kumar_soni_?igsh=MXAxODQzYnBnczIybw=="
+                                target="_blank"><i class="fa fa-instagram" style="font-size:48px;color:red"></i></i></a>
+                            <a href="https://www.linkedin.com/in/keshav-kumar-soni-811152317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                target="_blank"><i class="fa fa-linkedin-square"
+                                    style="font-size:48px;color:red"></i></a>
+                        </div>
+                        <a href="/my_resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form id="myForm">
+                            <input name="name" type="text" placeholder="Name">
+                            <input name="email" type="email" placeholder="Email">
+                            <textarea name="message" rows="6" cols="" placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn2 btn3">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------- copyright ---------------------- -->
+
+        <div class="copyright">
+            <p> &copy; All Copyrights are reserved by Keshav Kumar Soni.</p>
+        </div>
+
+    </main>
+
+
+    <!-- using CDN from google to make our setence animated  useing typed js grom google -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- animation ko load krne ke bdd script tag lagayenge main script joh animated krne me help karegi -->
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Development', 'Software Development', 'Web Designing', 'Content Creating', 'Data Managment', 'Content Writing', 'IT Support'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <!-- script for skill & education section to hide or show data -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <!-- here we add script for side bar menu -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- script for contact form connection to google sheets -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxJBCFHjvg9AmmA0Gocgw9tBYzKrpaYyuLRFMfF-ktGoNFpJF499fYzAUOfz2P5ZzKz/exec';
+        const form = document.getElementById('myForm');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+
+            const formData = {
+                name: form.name.value,
+                email: form.email.value,
+                message: form.message.value
+            };
+
+            fetch(scriptURL, { method: 'POST', body: JSON.stringify(formData) })
+                .then(response => alert('Form Submitted Successfully!'))
+                .catch(error => alert('Error!', error.message));
+            form.reset();
+
+        });
+    </script>
+
+    <!-- adding script for fadeup the text when enter on the website -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
